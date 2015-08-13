@@ -5,4 +5,4 @@ To Do
 
 [+] Clean up code
 [+] Add github link in footer
-[+] Make site responsive to large screens
+
