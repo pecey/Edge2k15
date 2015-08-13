@@ -3,6 +3,5 @@ Website for college tech fest
 
 To Do
 
-[+] Clean up code
-[+] Add github link in footer
+[+] Clean up code[+] Add github link in footer
 
