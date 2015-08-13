@@ -1,0 +1,18 @@
+[01-Mar-2015 10:41:27] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:41:41] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:41:47] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:42:03] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:42:14] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:42:36] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:44:15] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 10:44:42] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[01-Mar-2015 19:59:07] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 46
+[10-Mar-2015 00:33:24] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/geekonix/public_html/edge/content/lib/database.php on line 45
+[10-Mar-2015 00:40:02] PHP Notice:  Undefined offset:  0 in /home2/geekonix/public_html/edge/content/lib/database.php on line 49
+[10-Mar-2015 00:47:49] PHP Notice:  Undefined offset:  0 in /home2/geekonix/public_html/edge/content/lib/database.php on line 49
+[10-Mar-2015 00:49:28] PHP Notice:  Undefined offset:  0 in /home2/geekonix/public_html/edge/content/lib/database.php on line 49
+[10-Mar-2015 00:49:28] PHP Notice:  Undefined index:  description in /home2/geekonix/public_html/edge/content/updates.php on line 12
+[10-Mar-2015 00:51:36] PHP Notice:  Undefined offset:  0 in /home2/geekonix/public_html/edge/content/lib/database.php on line 49
+[10-Mar-2015 00:51:54] PHP Notice:  Undefined offset:  0 in /home2/geekonix/public_html/edge/content/lib/database.php on line 49
+[10-Mar-2015 01:05:46] PHP Parse error:  syntax error, unexpected $end in /home2/geekonix/public_html/edge/content/event.php on line 158
+[10-Mar-2015 01:17:20] PHP Notice:  Undefined variable: event in /home2/geekonix/public_html/edge/content/event.php on line 101

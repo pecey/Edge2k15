@@ -1,0 +1,774 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@font-face{
+  font-family:'National Cartoon';
+  src:url('../libs/fonts/NationalCartoon.ttf');
+  font-weight:normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris-Light';
+    src: url('../libs/fonts/Neris-Light.otf') format("opentype");
+}
+
+.clearfix{
+  clear: both;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background:#fff;
+   color: #fff;
+   font-family: 'Lato', serif;
+}
+a{
+  text-decoration: none!important;
+  color: #fff!important;
+}
+ul,ol{
+  list-style:none;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../images/loader.gif') 50% 50% no-repeat rgb(237,233,223);
+}
+.container{
+  padding: 0px;
+  margin: 0px;
+  min-width: 100%;
+}
+/*
+.menu-icon{
+  height: 40px;
+  width: 40px;
+  color: #000;
+}
+.csstransforms .cn-wrapper {
+  font-size: 1em;
+  width: 26em;
+  height: 26em;
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+  bottom: -13em;
+  top: 25%;
+  left:50%;
+  border-radius: 50%;
+  margin-left: -13em;
+  background:transparent;
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  -moz-transform: scale(0.1);
+  transform: scale(0.1);
+  pointer-events: none;
+  -webkit-transition: all .3s ease .3s;
+  -moz-transition: all .3s ease .3s;
+  transition: all .3s ease .3s;
+  visibility: hidden;
+}
+
+.csstransforms .cn-wrapper:after{
+  content:".";
+  display:block;
+  font-size:2em;
+  width:6.2em;
+  height:6.2em;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.1em;
+  top:50%;
+  margin-top: -3.1em;
+  border-radius: 50%;
+  z-index:10;
+  color: transparent;
+}
+
+.csstransforms .opened-nav {
+  border-radius: 50%;
+  pointer-events: auto;
+  visibility: visible;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.cn-overlay {
+  width: 100%;
+  height: 100%;
+  /*background: -moz-linear-gradient(rgba(239, 236, 236, 1), rgba(250, 148, 62, 0.74)); 
+  background: -o-linear-gradient(rgba(239, 236, 236, 1), rgba(250, 148, 62, 0.74)); 
+  background: -webkit-linear-gradient(rgba(239, 236, 236, 1), rgba(250, 148, 62, 0.74)); 
+  background: linear-gradient(rgba(239, 236, 236, 1), rgba(250, 148, 62, 0.74)); */
+
+  /*
+  background: radial-gradient(transparent 5%, rgba(84, 84, 83, 0.75) 39%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .3s ease .3s;
+  -moz-transition: all .3s ease .3s;
+  transition: all .3s ease .3s;
+  z-index: 2;
+  text-align: center;
+}
+
+.cn-overlay.on-overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top:20px;
+}
+
+#event{
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  text-transform: lowercase;
+  display: inline-block!important;
+  padding: 10px 20px;
+  background: rgba(69, 69, 69, 0.85);
+  border-radius: 10px;
+
+}
+
+
+.cn-button {
+  border: none;
+  background: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8em;
+  padding-left: 1em;
+  height: 3em;
+  width: 3em;
+  background-color: #ff6347;
+  position: fixed;
+  top: 48%;
+  margin-left: -1.75em;
+  bottom: -1.75em;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 11;
+}
+
+.cn-button:hover,
+.cn-button:active,
+.cn-button:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.csstransforms .cn-wrapper li {
+  position: absolute;
+  font-size: 1.5em;
+  width: 10em;
+  height: 10em;
+  -webkit-transform: skew(60deg) rotate(180deg) scale(1);
+  -ms-transform: skew(60deg) rotate(180deg) scale(1);
+  -moz-transform: skew(60deg) rotate(180deg) scale(1);
+  transform: skew(60deg) rotate(180deg) scale(1);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  margin-top: -1.3em;
+  margin-left: -10em;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  background-color: transparent;
+}
+
+.csstransforms .cn-wrapper li a {
+  display: block;
+  font-size: 1.18em;
+  height: 16em;
+  width: 16.5em;
+  position: absolute;
+  bottom: -8.25em;
+  right: -8.25em;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 1.1em;
+  text-align: center;
+  -webkit-transform: skew(-60deg) rotate(-75deg) scale(1);
+  -ms-transform: skew(-60deg) rotate(-75deg) scale(1);
+  -moz-transform: skew(-60deg) rotate(-75deg) scale(1);
+  transform: skew(-60deg) rotate(-75deg) scale(1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: opacity 0.3s, color 0.3s;
+  -moz-transition: opacity 0.3s, color 0.3s;
+  transition: opacity 0.3s, color 0.3s;
+}
+
+
+.csstransforms .cn-wrapper li a span {
+  font-size: 1.1em;
+  opacity: 0.7;
+  outline:none;
+  color: #000;
+}
+
+/* for a central angle x, the list items must be skewed by 90-x degrees
+in our case x=40deg so skew angle is 50deg
+items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
+
+
+/*
+.csstransforms .opened-nav li {
+  -webkit-transition: all .3s ease .3s;
+  -moz-transition: all .3s ease .3s;
+  transition: all .3s ease .3s;
+}
+
+.csstransforms .opened-nav li:first-child {
+  -webkit-transform: rotate(87deg) skew(60deg);
+  -ms-transform: rotate(87deg) skew(60deg);
+  -moz-transform: rotate(87deg) skew(60deg);
+  transform: rotate(87deg) skew(60deg);
+}
+
+.csstransforms .opened-nav li:nth-child(2) {
+  -webkit-transform: rotate(117deg) skew(60deg);
+  -ms-transform: rotate(117deg) skew(60deg);
+  -moz-transform: rotate(117deg) skew(60deg);
+  transform: rotate(117deg) skew(60deg);
+}
+
+.csstransforms .opened-nav li:nth-child(3) {
+  -webkit-transform: rotate(147deg) skew(60deg);
+  -ms-transform: rotate(147deg) skew(60deg);
+  -moz-transform: rotate(147deg) skew(60deg);
+  transform: rotate(147deg) skew(60deg)
+}
+
+.csstransforms .opened-nav li:nth-child(4) {
+  -webkit-transform: rotate(177deg) skew(60deg);
+  -ms-transform: rotate(177deg) skew(60deg);
+  -moz-transform: rotate(177deg) skew(60deg);
+  transform: rotate(177deg) skew(60deg);
+}
+
+.csstransforms .opened-nav li:nth-child(5) {
+  -webkit-transform: rotate(207deg) skew(60deg);
+  -ms-transform: rotate(207deg) skew(60deg);
+  -moz-transform: rotate(207deg) skew(60deg);
+  transform: rotate(207deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(6) {
+  -webkit-transform: rotate(237deg) skew(60deg);
+  -ms-transform: rotate(237deg) skew(60deg);
+  -moz-transform: rotate(237deg) skew(60deg);
+  transform: rotate(237deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(7) {
+  -webkit-transform: rotate(267deg) skew(60deg);
+  -ms-transform: rotate(267deg) skew(60deg);
+  -moz-transform: rotate(267deg) skew(60deg);
+  transform: rotate(267deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(8) {
+  -webkit-transform: rotate(297deg) skew(60deg);
+  -ms-transform: rotate(297deg) skew(60deg);
+  -moz-transform: rotate(297deg) skew(60deg);
+  transform: rotate(297deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(9) {
+  -webkit-transform: rotate(327deg) skew(60deg);
+  -ms-transform: rotate(327deg) skew(60deg);
+  -moz-transform: rotate(327deg) skew(60deg);
+  transform: rotate(327deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(10) {
+  -webkit-transform: rotate(357deg) skew(60deg);
+  -ms-transform: rotate(357deg) skew(60deg);
+  -moz-transform: rotate(357deg) skew(60deg);
+  transform: rotate(357deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(11) {
+  -webkit-transform: rotate(27deg) skew(60deg);
+  -ms-transform: rotate(27deg) skew(60deg);
+  -moz-transform: rotate(27deg) skew(60deg);
+  transform: rotate(27deg) skew(60deg);
+}
+.csstransforms .opened-nav li:nth-child(12) {
+  -webkit-transform: rotate(57deg) skew(60deg);
+  -ms-transform: rotate(57deg) skew(60deg);
+  -moz-transform: rotate(57deg) skew(60deg);
+  transform: rotate(57deg) skew(60deg);
+}
+/*
+.csstransforms .cn-wrapper li:nth-child(odd) a {
+  background-color: #a11313;
+  background-color: hsla(0, 88%, 63%, 1);
+}
+
+.csstransforms .cn-wrapper li:nth-child(even) a {
+  background-color: #a61414;
+  background-color: hsla(0, 88%, 65%, 1);
+}
+
+
+.csstransforms .cn-wrapper li.active a {
+  background-color: #b31515;
+  background-color: hsla(0, 88%, 70%, 1);
+}
+
+
+
+
+.csstransforms .cn-wrapper li:not(.active) a:hover,
+.csstransforms .cn-wrapper li:not(.active) a:active,
+.csstransforms .cn-wrapper li:not(.active) a:focus {
+  background-color: #b31515;
+  background-color: hsla(0, 88%, 70%, 1);
+}
+*/
+
+/*
+.csstransforms .cn-wrapper li:not(.active) a:hover,
+.csstransforms .cn-wrapper li:not(.active) a:active,
+.csstransforms .cn-wrapper li:not(.active) a:focus  {
+    background: radial-gradient(transparent 40%, #E7E0B4 39%);
+    outline: none;
+}
+
+.csstransforms .cn-wrapper li a{
+  background: radial-gradient(transparent 40%, #F7FFD4 39%);
+  /*border: 1px solid black;
+  color: black;
+}
+/* fallback */
+/*
+.no-csstransforms .cn-button {
+  display: none;
+}
+
+.no-csstransforms .cn-wrapper li {
+  position: static;
+  float: left;
+  font-size: 1em;
+  height: 5em;
+  width: 5em;
+  background-color: #eee;
+  text-align: center;
+  line-height: 5em;
+}
+
+.no-csstransforms .cn-wrapper li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.3em;
+  /*border-right: 1px solid #ddd;*/
+}
+
+/*
+.no-csstransforms .cn-wrapper li a:last-child {
+  border: none;
+}
+
+.no-csstransforms .cn-wrapper li a:hover,
+.no-csstransforms .cn-wrapper li a:active,
+.no-csstransforms .cn-wrapper li a:focus {
+  background-color: white;
+}
+
+
+.no-csstransforms .cn-wrapper li.active a {
+  background-color: #6F325C;
+  color: #fff;
+}
+
+.no-csstransforms .cn-wrapper {
+  font-size: 1em;
+  height: 5em;
+  width: 25.15em;
+  bottom: 0;
+  margin-left: -12.5em;
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+}
+
+@media screen and (max-width:480px) {
+  .csstransforms .cn-wrapper {
+    font-size: .68em;
+  }
+
+  .cn-button {
+    font-size: 1em;
+  }
+
+  .csstransforms .cn-wrapper li {
+    font-size: 1.52em;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .no-csstransforms .cn-wrapper {
+    width: 15.15px;
+    margin-left: -7.5em;
+  }
+
+  .no-csstransforms .cn-wrapper li {
+    height: 3em;
+    width: 3em;
+  }
+}
+
+
+
+/* Social */
+
+#social{
+  top:50%;
+  position: fixed;
+  margin-top: -75px;
+  font-size: 20px;
+  max-width: 40px;
+  min-width: 40px;
+  right: 0px;
+  z-index: 100;
+}
+
+#social-fixed li:first-child{
+  border-radius: 5px 0px 0px 0px;
+}
+
+#social-fixed li:last-child{
+  border-radius: 0px 0px 0px 5px;
+}
+
+#social-fixed{
+  color: #fff;
+}
+
+#social-fixed li{
+  padding: 10px 10px 10px 10px;
+ }
+  .social{
+    background-color: #121212;
+}
+
+
+
+
+
+/*  Slides  */
+
+.slide{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.slide-image{
+  border-top: 2px solid rgba(174, 174, 174, 0.4);
+  border-bottom: 2px solid rgba(174, 174, 174, 0.4);
+}
+
+.slide-data{
+  position: relative;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.slide-data:before, .slide-data:after{
+    content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+}
+
+.slide-data:after{
+    left: auto;
+    right: auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+.slide-heading{
+  padding: 50px 0px 20px;
+  text-align: center;
+  font: 60px 'Neris-Light';
+  color:#000;
+  margin-top: 0px;
+}
+
+.slide-desc{
+  padding: 5px 50px;
+  margin-top: 0;
+}
+
+/*Slide 1*/
+#slide1{
+  text-align: center;
+  font: 0/0 a;
+  overflow: hidden;
+}
+/*
+#slide1:before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+#landing-main{
+  display: inline-block;
+  vertical-align: middle;
+}
+*/
+/*Slide 2*/
+#slide2{
+  background: url('../images/computeaid_opt.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 3*/
+#slide3{
+  background:url("http://subtlepatterns.com/patterns/geometry.png") repeat;
+}
+
+/*Slide 4*/
+#slide4{
+  background: url('../images/cybercrusade.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 5*/
+#slide5{
+  background:url("http://subtlepatterns.com/patterns/connect.png") repeat;
+}
+
+
+/*Slide 6*/
+#slide6{
+  background:url('../images/robotics.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 7*/
+#slide7{
+  background:url("http://subtlepatterns.com/patterns/pw_maze_white.png") repeat;
+}
+
+/*Slide 8*/
+#slide8{
+  background:url('../images/foodforfun_opt.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 9*/
+#slide9{
+  background:url("http://subtlepatterns.com/patterns/light_wool.png") repeat;
+}
+
+/*Slide 10*/
+#slide10{
+  background:url('../images/moneymatters.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 11*/
+#slide11{
+  background:url("http://subtlepatterns.com/patterns/grey.png") repeat;
+}
+
+/*Slide 12*/
+#slide12{
+  background:url('../images/newron_opt.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 13*/
+#slide13{
+  background:url("http://subtlepatterns.com/patterns/gplaypattern.png") repeat;
+}
+
+/*Slide 14*/
+#slide14{
+  background:url('../images/infocus_opt.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 15*/
+#slide15{
+  background:url("http://subtlepatterns.com/patterns/photography.png") repeat;
+}
+
+/*Slide 16*/
+#slide16{
+  background:url('../images/creative.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 17*/
+#slide17{
+  background:url("http://subtlepatterns.com/patterns/foggy_birds.png") repeat;
+}
+
+/*Slide 18*/
+#slide18{
+  background:url('../images/innovati_opt.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 19*/
+#slide19{
+  background:url("http://subtlepatterns.com/patterns/knitting250px.png") repeat;
+}
+
+/*Slide 20*/
+#slide20{
+  background:url('../images/justlikethat.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 21*/
+#slide21{
+  background:url("http://subtlepatterns.com/patterns/pw_pattern.png") repeat;
+}
+
+/*Slide 22*/
+#slide22{
+  background:url('../images/online.gif') fixed;
+  background-size: cover;
+}
+
+/*Slide 23*/
+#slide23{
+  background:url("http://subtlepatterns.com/patterns/worn_dots.png") repeat;
+}
+
+/*Slide 24*/
+#slide24{
+  background:url('../images/knowtheteam_opt.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 25*/
+#slide25{
+  background:url("http://subtlepatterns.com/patterns/hexellence.png") repeat;
+}
+#slide25 .slide-desc{
+  margin-top: 0px!important;
+}
+
+/*Slide 26*/
+#slide26{
+  background:url('../images/getintouch.jpg') fixed;
+  background-size: cover;
+}
+
+/*Slide 27*/
+#slide27{
+  background:url("http://subtlepatterns.com/patterns/fabric_plaid.png") repeat;
+}
+
+
+
+/*Contact*/
+#map{
+  margin-right: 50px;
+}
+
+/*Footer*/
+
+footer{
+  height: 120px;
+  background:#ff6347;
+  padding: 50px;
+  border-top: 2px solid rgba(174, 174, 174, 0.4);
+  border-bottom: 2px solid rgba(174, 174, 174, 0.4);
+}
+footer a{
+  border-bottom: 1px dotted #fff;
+}
+footer a:hover{
+  color:rgb(27, 27, 37);
+  border-bottom: 1px dotted rgb(27, 27, 37);
+}
+
+
+/*Slide Data*/
+.slide-desc{
+  font: 60px 'Lato';
+  text-align: center;
+  color: black;
+  margin-top: 10%;
+  width: 100%;
+  max-height: 65%;
+}
+
+
+/*Canvas*/
+#logo{
+  vertical-align: middle;
+}
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#landing-page{
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  text-align:
+ }

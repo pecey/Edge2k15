@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<script type="text/javascript">
+		if(screen.screen>800)
+			window.location="index.html";
+		
+	</script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="icon" type="image/png" href="crumbs/images/logos/mascot.png">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.mobile.css">
+	<title>Edge</title>
+</head>
+<body>
+<!--
+	<div id="splash-screen">
+		<div id="splash">
+			<img src="crumbs/images/logos/web.png">
+		</div>
+	</div>
+-->
+<style>
+	.event{
+		cursor: pointer;
+	}
+</style>
+<div class="container">
+	<div id="branding" data-role="header" data-postition="fixed">
+		<div style="float:left; display:inline-block">
+			<img src="crumbs/images/logos/edge_white_opt.png" height="20px" width="25px">
+		</div>
+		<img src="crumbs/images/mobile/mobile.png" height="auto" width="30%">
+		<div style="float:right; display:inline-block">
+			<a href="http://geekonix.org"><img src="crumbs/images/logos/gx_mobile.png" height="20px" width="20px"></a>
+			<a href="http://ticollege.ac.in/"><img src="crumbs/images/logos/ti_white.png" height="20px" width="20px"></a>
+		</div>
+		
+	</div>
+	<div data-role="page" id="landing" class="page">
+		<div data-role="header" class="custom-header" id="main-header">Events</div>
+		<div data-role="content">
+			<fieldset data-role="controlgroup" id="events-fieldset" style="display:none">
+				<a data-icon="computeaid" data-role="button" href="#computeaid">ComputeAid</a>
+				<a data-icon="cybercrusade" data-role="button" href="#cybercrusade">Cyber Crusade</a>
+				<a data-icon="robotics" data-role="button" href="#robotics">Robotics</a>
+				<a data-icon="foodforfun" data-role="button" href="#foodforfun">Food For Fun</a>
+				<a data-icon="moneymatters" data-role="button" href="#moneymatters">Money Matters</a>
+				<a data-icon="newron" data-role="button" href="#newron">Newron</a>
+				<a data-icon="infocus" data-role="button" href="#infocus">In Focus</a>
+				<a data-icon="createit" data-role="button" href="#createit">Create It</a>
+				<a data-icon="innovati" data-role="button" href="#innovati">Innovati</a>
+				<a data-icon="justlikethat" data-role="button" href="#justlikethat">Just Like That</a>
+				<a data-icon="online" data-role="button" href="#online">Online Events</a>
+			</fieldset>
+		</div>
+		<div data-role="header" class="custom-header" id="guests-header">Guests <span style="font-family: sans-serif">@</span> Edge <span style="font-family: sans-serif">2015</span></div>
+		<div data-role="content">
+			<fieldset data-role="controlgroup" id="guests-fieldset" style="display:none">
+				This year EDGE presents "THE VIRAL FEVER" as the guests. Be there on 3rd April to watch the magic unfold.
+			</fieldset>
+		</div>
+		<style>
+			.first{
+				font-weight: 400;
+			}
+			.second{
+				padding-left: 20px; 
+			}
+		</style>
+		<div data-role="header" class="custom-header" id="special-header">Special Events</div>
+		<div data-role="content">
+			<fieldset data-role="controlgroup" id="special-fieldset" style="display:none">
+				<ul>
+					<li class="first">Red Bull Pong
+						<ul style="list-style-type:none">
+							<li class="second">Event co-ordinator : Rounak Jindal (+91-9547357040)</li>
+						</ul>
+					</li>
+					<li class="first">Paintball
+						<ul style="list-style-type:none">
+							<li class="second">Event co-ordinator : Arpan Ghosh (+91-9903086771)</li>
+						</ul>
+					</li>
+					<li class="first">Body Zorbing
+						<ul style="list-style-type:none">
+							<li class="second">Event co-ordinator : Arpan Ghosh (+91-9903086771)</li>
+						</ul>
+					</li>
+				</ul>
+			</fieldset>
+		</div>
+		<div data-role="header" class="custom-header" id="schedule-header">Schedule</div>
+		<div data-role="content">
+			<fieldset data-role="controlgroup" id="schedule-fieldset" style="display:none">
+				Dates : 3rd - 5th April.
+				The exact schedule will be announced soon.
+			</fieldset>
+		</div>
+		<div data-role="header" class="custom-header" id="reg-header">Registration</div>
+		<div data-role="content"></div>
+		<div data-role="header" class="custom-header" id="accomodation-header">Accomodation</div>
+		<div data-role="content">
+			<fieldset data-role="controlgroup" id="accomodation-fieldset" style="display:none">
+				For accomodation, please fill up the form here <a href="http://goo.gl/forms/jmbXfLloc1">here</a>
+			</fieldset>
+		</div>
+		<div data-role="header" class="custom-header" id="ambassador-header">Ambassadors</div>
+		<div data-role="content"></div>
+		<div data-role="header" class="custom-header" id="team-header">Know the team</div>
+		<div data-role="content"></div>
+		<div data-role="header" class="custom-header" id="help-header">Need Help?</div>
+		<div data-role="content"></div>
+		<div data-role="header" class="custom-header" id="map-header">Chart us Down</div>
+		<div data-role="content"></div>
+		<div data-role="footer" data-postition="fixed" class="custom-footer">&copy; 2014 Geekonix.All rights reserved.</div>
+	</div>
+	<div data-role="page" id="registration" class="page">
+		<div data-role="header" class="custom-header">Registration</div>
+		<div data-role="content">
+			<div>
+				<ul>
+			<li>Online registration is mandatory for EDGE'15. Please register yourselves by clicking <a href="http://www.foreseegame.com/PromotionalActivities.aspx?paramPro=TechnoIndiaSaltLake" target="_blank">here</a></li>
+			<li>Upon successful registration, you will be given a registration code. Please bring that code when you come</li>
+			<li>Payment of registration fees for the events will be done on spot</li>
+			<li>For any queries regarding registration, please contact <a href="https://www.facebook.com/sayanti.bhaumik">Sayanti Bhaumik</a> (+91-9830791658)</li>
+			<li style="color:red;">For events under Robotics, the results of prelims of Day 1, and Day 2 would be released separately.</li>
+		</ul>
+			</div>
+			<table class="table">
+			<tr>
+				<th>Category</th>
+				<th>Events</th>
+				<th>Registration Fees</th>
+			</tr>
+			<tr>
+				<td>General</td>
+				<td>All events(except special events)</td>
+				<td>₹300</td>
+			</tr>
+			<tr>
+				<td>Compute Aid</td>
+				<td>All events</td>
+				<td>₹200</td>
+			</tr>
+			<tr>
+				<td rowspan="3">Robotics</td>
+				<td>Manual</td>
+				<td>₹150</td>
+			</tr>
+			<tr>
+				<td>Auto</td>
+				<td>₹100</td>
+			</tr>
+			<tr>
+				<td>All events</td>
+				<td>₹200</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Cyber Crusade</td>
+				<td>Pro League(All)</td>
+				<td>₹250</td>
+			</tr>
+			<tr>
+				<td>College League(All)</td>
+				<td>₹200</td>
+			</tr>
+			<tr>
+				<td rowspan="3">Money Matters</td>
+				<td>B Plan + Addomedia</td>
+				<td>₹200</td>
+			</tr>
+			<tr>
+				<td>B Quiz</td>
+				<td>₹80</td>
+			</tr>
+			<tr>
+				<td>All events</td>
+				<td>₹250</td>
+			</tr>
+			<tr>
+				<td rowspan="3">Newron</td>
+				<td>Quiz</td>
+				<td>₹80</td>
+			</tr>
+			<tr>
+				<td>Speak Out</td>
+				<td>₹50</td>
+			</tr>
+			<tr>
+				<td>Electronically Yours</td>
+				<td>₹50</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="color:red">*B-Quiz + Quiz </td>
+				<td style="color:red">₹150</td>
+			</tr>
+			<tr>
+				<td rowspan="4">In Focus</td>
+				<td>Crumbs</td>
+				<td>₹70 for 3 pics (₹30 for each extra)</td>
+			</tr>
+			<tr>
+				<td>Shoot 'Em Up</td>
+				<td>₹100</td>
+			</tr>
+			<tr>
+				<td>Crumbs + Shoot 'Em Up</td>
+				<td>₹150</td>
+			</tr>
+			<tr>
+				<td>Odyssey</td>
+				<td>₹400 per entry</td>
+			</tr>
+			<tr>
+				<td>Innovati</td>
+				<td>Project View</td>
+				<td>₹50</td>
+			</tr>
+			<tr>
+				<td>Food For Fun</td>
+				<td>All Events</td>
+				<td>₹200</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Create It</td>
+				<td>Mekanix</td>
+				<td>₹50</td>
+			</tr>
+			<tr>
+				<td>Rags To Riches</td>
+				<td>₹50</td>
+			</tr>
+			<tr>
+				<td>Just Like That</td>
+				<td>All Events</td>
+				<td>Free</td>
+			</tr>
+			<tr>
+				<td>Body Zorbing</td>
+				<td>Individual</td>
+				<td>₹50</td>
+			</tr>
+			<tr>
+				<td>Paintball</td>
+				<td>Individual</td>
+				<td>₹150</td>
+			</tr>
+		</table>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="computeaid" class="page">
+		<div data-role="header" class="custom-header">Compute Aid</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="1">Flawless</li>
+				<li class="event" data-eventid="2">Code Mart</li>
+				<li class="event" data-eventid="3">Bug Hunt</li>
+				<li class="event" data-eventid="4">CryptoQuest</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="cybercrusade" class="page">
+		<div data-role="header" class="custom-header">Cyber Crusade</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="5">NFS Most Wanted</li>
+				<li class="event" data-eventid="6">CS Pro League</li>
+				<li class="event" data-eventid="8">CS College League</li>
+				<li class="event" data-eventid="7">Fifa College League</li>
+				
+				<li class="event" data-eventid="9">Fifa Pro League</li>
+				<li class="event" data-eventid="10">Dota</li>
+				<li class="event" data-eventid="11">Mortal Kombat</li>
+				
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="robotics" class="page">
+		<div data-role="header" class="custom-header">Robotics</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="12">City Rush</li>
+				<li class="event" data-eventid="13">Street Soccer</li>
+				<li class="event" data-eventid="14">Tour de Track</li>
+				<li class="event" data-eventid="15">Hedge d Maze</li>
+				<li class="event" data-eventid="16">Shadows</li>
+				<li class="event" data-eventid="17">Make-A-Bot</li>
+				<li class="event" data-eventid="18">Blitzkreig Apocalypse</li>
+				<li class="event" data-eventid="19">Gather The Litter</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="moneymatters" class="page">
+		<div data-role="header" class="custom-header">Money Matters</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="26">B-Plan</li>
+				<li class="event" data-eventid="27">B-Quiz</li>
+				<li class="event" data-eventid="28">Addomedia</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="foodforfun" class="page">
+		<div data-role="header" class="custom-header">Food For Fun</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="20">X-Quiz'it</li>
+				<li class="event" data-eventid="21">Case Study</li>
+				<li class="event" data-eventid="23">Creation</li>
+				<li class="event" data-eventid="24">Food Relay</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+
+	</div>
+	<div data-role="page" id="createit" class="page">
+		<div data-role="header" class="custom-header">Create It</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="34">Rags to Riches</li>
+				<li class="event" data-eventid="35">Mekanix</li>
+				
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="innovati" class="page">
+		<div data-role="header" class="custom-header">Innovati</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="36">Project View</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="justlikethat" class="page">
+		<div data-role="header" class="custom-header">Just Like That</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="37">Khul Ja Sim Sim</li>
+                <li class="event" data-eventid="38"><a href="https://www.facebook.com/pages/Get-Selfie-ish/743895972367464">Get 'Selfie'-ish</a></li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="infocus" class="page">
+		<div data-role="header" class="custom-header">In Focus</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="25">Shoot'em Up</li>
+				<li class="event" data-eventid="32">Crumbs</li>
+				<li class="event" data-eventid="33">Odyssey</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="newron" class="page">
+		<div data-role="header" class="custom-header">Newron</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="29">Electronically Yours</li>
+				<li class="event" data-eventid="30">Speakout</li>
+				<li class="event" data-eventid="31">The Quiz</li>
+				
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" id="online" class="page">
+		<div data-role="header" class="custom-header">Online Events</div>
+		<div data-role="content">
+			<ul class="event-list">
+				<li class="event" data-eventid="39">CodeOut</li>
+				<li class="event" data-eventid="40">Stock It</li>
+				<li class="event" data-eventid="41">KwizNet</li>
+				<li class="event" data-eventid="42">Game of Zones</li>
+			</ul>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+
+
+	<div data-role="page" id="team" class="page">
+		<div data-role="header" class="custom-header">Know The Team</div>
+		<div data-role="content" id="team-content">
+			<div class="contact" data-role="Student Convener">
+				<img class="contact-image"src="crumbs/images/members/mobile/Som.jpg" height="200" width="200">
+				<div class="contact-details"><a href="https://www.facebook.com/som.as.ever" class="team-fb fa fa-facebook"><span>Som Mukherjee</span></a><span class="contact-role">Student Convener</span></div>
+			</div>
+			<div class="contact" data-role="Student Co-convener">
+				<img class="contact-image"src="crumbs/images/members/mobile/Rounak.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/rounak.jindal" class="team-fb fa fa-facebook"><span>Rounak Jindal</span></a><span class="contact-role">Student Co-convener</span></div>
+			</div>
+			<div class="contact" data-role="Marketing, Sponsorship">
+				<img class="contact-image"src="crumbs/images/members/mobile/Jeet.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/jeet.chatterjee.3304" class="team-fb fa fa-facebook"><span>Jeet Chatterjee</span></a><span class="contact-role">Marketing, Sponsorship</span></div>
+			</div>
+			<div class="contact" data-role="Marketing, Sponsorship">
+				<img class="contact-image"src="crumbs/images/members/mobile/Arpan.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/arpan.ghosh.37" class="team-fb fa fa-facebook"><span>Arpan Ghosh</span></a><span class="contact-role">Marketing, Sponsorship</span></div>
+			</div>
+			<div class="contact" data-role="Finance, Treasurer">
+				<img class="contact-image"src="crumbs/images/members/mobile/Souvik.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/souvik.dutta.3388" class="team-fb fa fa-facebook"><span>Souvik Dutta</span></a><span class="contact-role">Finance, Treasurer</span></div>
+			</div>
+			<div class="contact" data-role="Publicity, Outreach">
+				<img class="contact-image"src="crumbs/images/members/mobile/Sayanti.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/sayanti.bhaumik" class="team-fb fa fa-facebook"><span>Sayanti Bhaumik</span></a><span class="contact-role">Publicity, Outreach</span></div>
+			</div>
+			<div class="contact" data-role="Designing, Decoration">
+				<img class="contact-image"src="crumbs/images/members/mobile/Rishav.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/rajrishav92" class="team-fb fa fa-facebook"><span>Rishav Raj</span></a><span class="contact-role">Designing, Decoration</span></div>
+			</div>
+			<div class="contact" data-role="Gaming Head">
+				<img class="contact-image"src="crumbs/images/members/mobile/Anish.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/anish.nath.8" class="team-fb fa fa-facebook"><span>Anish Nath</span></a><span class="contact-role">Gaming Head</span></div>
+			</div>
+			<div class="contact" data-role="Robotics Head">
+				<img class="contact-image"src="crumbs/images/members/mobile/Gautam.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/pathak45" class="team-fb fa fa-facebook"><span>Gautam Pathak</span></a><span class="contact-role">Robotics Head</span></div>
+			</div>
+			<div class="contact" data-role="Computing Head">
+				<img class="contact-image"src="crumbs/images/members/mobile/Shirsho.jpg" height="200" width="200">
+				<div class="contact-details"><a href="https://www.facebook.com/dwaipayan.ghosal" class="team-fb fa fa-facebook"><span>Dwaipayan Ghosal</span></a><span class="contact-role">Computing Head</span></div>
+			</div>
+			<div class="contact" data-role="Photography">
+				<img class="contact-image"src="crumbs/images/members/mobile/Soumyabrata.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/samwillson1992" class="team-fb fa fa-facebook"><span>Soumyabrata Bhaduri</span></a><span class="contact-role">Photography</span></div>
+			</div>
+			<div class="contact" data-role="App Development">
+				<img class="contact-image"src="crumbs/images/members/mobile/Majid.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/majid.m.jahangir" class="team-fb fa fa-facebook"><span>Md. Majid Jahangir</span></a><span class="contact-role">App Development</span></div>
+			</div>
+			<div class="contact" data-role="Web Developer">
+				<img class="contact-image"src="crumbs/images/members/mobile/Soham.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/soham" class="team-fb fa fa-facebook"><span>Soham Pal</span></a><span class="contact-role">Web Developer</span></div>
+			</div>
+			<div class="contact" data-role="Web Developer">
+				<img class="contact-image"src="crumbs/images/members/mobile/Prabuddha.jpg">
+				<div class="contact-details"><a href="https://www.facebook.com/Prabuddha.kgp" class="team-fb fa fa-facebook"><span>Prabuddha Chakraborty</span></a><span class="contact-role">Web Developer</span></div>
+			</div>
+			<div class="contact" data-role="Web Developer">
+				<img class="contact-image"src="crumbs/images/members/mobile/Palash.jpg">
+				<div class="contact-details"><a href="#" class="fa"><span style="padding-left:10px">Palash Chatterjee</span></a><span class="contact-role">Web Developer</span></div>
+			</div>
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" class="page" id="map" data-url="map">
+		<div data-role="header" class="custom-header">Chart us Down</div>
+		<div role="main" class="ui-content" id="map-canvas">
+		</div>
+		<div data-role="footer">
+			<a href="#landing"><i class="fa fa-reply"></i>Back</a>
+		</div>
+	</div>
+	<div data-role="page" class="page" id="help">
+		<div data-role="header" class="custom-header">Need Help?</div>
+		<div data-role="content">
+			<div id="feedback">
+				<form>
+				<div class="form-group">
+						<input type="email" autocorrect="off" autocomplete="off" class="form-control" placeholder="Your email, please" id="email">
+				</div>
+				<div class="form-group">
+						<input type="text"  autocorrect="off" autocomplete="off" class="form-control" placeholder="And your name" id="name">
+				</div>
+				<div class="form-group">
+					<textarea style="resize:none;" class="form-control" placeholder="Drop in a message. We'll get back as soon as we can!" id="feedbackArea"></textarea>
+				</div>
+				<button class="btn btn-info" id="submit" style="width:200px">Submit</button>
+				<div id="response"></div>
+			</form>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" class="page" id="ambassador">
+		<div data-role="header" class="custom-header">Campus Ambassador</div>
+		<div data-role="content">
+			<div id="ambassador-form">
+				<div class="form">
+				<form style="max-width: 70%;margin: 50px 20px;">
+					<div class="form-group">
+						<input id="campus-name" class="form-control" placeholder="Your Name, please." type="text" autofocus >
+					</div>
+					<div class="form-group">
+						<input id="campus-email" class="form-control" placeholder="And your email address." type="email">
+					</div>
+					<div class="form-group">
+						<input id="campus-college" class="form-control" placeholder="In which college do you study?">
+					</div>
+					<div class="form-group">
+						<input id="campus-stream" class="form-control" placeholder="What is your stream?">
+					</div>
+					<div class="form-group">
+						<label>And you are in...</label>
+						<select class="form-control" id="campus-year">
+							<option>1st Year</option>
+							<option>2nd Year</option>
+							<option>3rd Year</option>
+							<option>4th Year</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<input id="campus-contact" class="form-control" placeholder="Your contact number." maxlength="10">
+					</div>
+					<button id="applycampus" class="btn btn-info">Apply</button>
+				</form>
+				<div class="response" style="font-size: 14px!important; margin: 0px 20px;">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--
+
+	<div id="navigation" data-position="fixed">
+		<ul>
+			  <li><a href="#nav-panel" class="fa fa-gear" data-iconpos="notext">&nbsp;Events&nbsp;</a></li>
+		</ul>
+	</div>
+-->
+<!--Panel-->
+	<!--
+	<div data-role="page">
+	<div data-role="panel" id="nav-panel" data-display="push">
+		<ul data-role="listview" style="z-index: 100" class="sub-menu">
+			<li><a href="#computeaid">ComputeAid</a></li>
+			<li><a href="#">Cyber Crusade</a></li>
+			<li><a href="#">Robotics</a></li>
+			<li><a href="#">Food For Fun</a></li>
+			<li><a href="#">Money Matters</a></li>
+			<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+		</ul>
+	</div>
+	</div>
+	<div data-role="page" id="computeaid" class="page">
+		ComputeAid
+
+	</div>
+	<div data-role="page" id="cybercrusade" class="page">
+		CyberCrusade
+	</div>-->
+		<!--
+		<div data-role="tabs" id="navigation">
+			    <div data-role="navbar">
+			        <ul>
+			          <li data-role="collapsible">
+			          	<a href="#one">Events</a>
+			          	<ul data-role="listview" class="sub-menu">
+							<li><a href="#computeaid">ComputeAid</a></li>
+							<li><a href="#cybercrusade">CyberCrusade</a></li>
+							<li><a href="#robotics">Robotics</a></li>
+							<li><a href="#foodforfun">Food For Fun</a></li>
+							<li><a href="#">MoneyMatters</a></li>
+							<li><a href="#">Newron</a></li>
+							<li><a href="#">InFocus</a></li>
+							<li><a href="#">CreateIt</a></li>
+							<li><a href="#">Innovati</a></li>
+							<li><a href="#">Just Like That</a></li>
+						</ul>
+			          </li>
+			        </ul>
+			    </div>
+			    <div id="one" class="ui-content">
+			    <h1>First tab contents</h1>
+			    </div>
+			</div>
+		-->
+	<!--
+		
+		<div id="navigation">
+				<ul data-role="listview" data-shadow="true" class="navigation">
+					<li data-role="collapsible" data-iconpos="right">
+						<h4 class="nav-header">Events</h4>
+						<ul data-role="listview" class="sub-menu">
+							<li><a href="#computeaid">ComputeAid</a></li>
+							<li><a href="#cybercrusade">CyberCrusade</a></li>
+							<li><a href="#robotics">Robotics</a></li>
+							<li><a href="#foodforfun">Food For Fun</a></li>
+							<li><a href="#">MoneyMatters</a></li>
+							<li><a href="#">Newron</a></li>
+							<li><a href="#">InFocus</a></li>
+							<li><a href="#">CreateIt</a></li>
+							<li><a href="#">Innovati</a></li>
+							<li><a href="#">Just Like That</a></li>
+						</ul>
+					</li>
+				</ul>
+		</div>
+		<div id="slides">
+					<div id="computeaid" class="ui-content">ComputeAid</div>
+					<div id="cybercrusade" class="ui-content">CyberCrusade</div>
+					<div id="robotics" class="ui-content">Robotics</div>
+					<div id="foodforfun"></div>
+					<div id="moneymatters"></div>
+					<div id="newron"></div>
+					<div id="infocus"></div>
+					<div id="createit"></div>
+					<div id="innovati"></div>
+		
+		</div>
+	-->
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7I0zl-Rfn80eevI_Zq9Bbb6PDUqXAdb4"></script>
+<script type="text/javascript">
+	/*
+		$(window).load(function(){
+			$("#splash-screen").fadeIn(1000).delay(1000).fadeOut(1000);
+			$(".container").animate({"opacity":1},2000);
+		});
+*/	
+$(document).ready(function(){
+	var margin = $("#branding").height()+20;
+	var height = $(window).height()-80;
+	$("#navigation").css("margin-top",margin);
+	$(".sub-menu").css("margin-top",margin);
+	$(".page").css("margin-top",margin);
+	$(".page").css("height",height);
+});
+$("#events-fieldset > a").click(function(){
+	$("#events-fieldset").toggle();
+});
+$("#main-header").click(function(){
+	$("#events-fieldset").slideToggle();
+});
+$("#guests-header").click(function(){
+	$("#guests-fieldset").slideToggle();
+});
+$("#schedule-header").click(function(){
+	$("#schedule-fieldset").slideToggle();
+});
+$("#ambassador-header").click(function(){
+	$("#ambassador-fieldset").slideToggle();
+});
+$("#download-header").click(function(){
+	$("#download-fieldset").slideToggle();
+});
+$("#special-header").click(function(){
+	$("#special-fieldset").slideToggle();
+});
+$("#accomodation-header").click(function(){
+	$("#accomodation-fieldset").slideToggle();
+});
+$("#reg-header").click(function(){
+	window.location.href="#registration";
+});
+$("#team-header").click(function(){
+	window.location.href="#team";
+});
+$("#map-header").click(function(){
+	window.location.href="#map";
+});
+$("#help-header").click(function(){
+	window.location.href="#help";
+});
+$("#ambassador-header").click(function(){
+	window.location.href="#ambassador";
+});
+$("#team-back").click(function(e){
+	e.preventDefault();
+	$("#team-content").hide();
+	window.location.href="#landing";
+	$("#team-content").show();
+});
+
+$( document ).on( "pageinit", "#map", function() {
+	var position = new google.maps.LatLng(22.576088,88.427969);
+	drawMap(position);
+	function drawMap(latlng) {
+		var myOptions = {
+			zoom: 18,
+			center: latlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+        // Add an overlay to the map of current lat/lng
+        var marker = new google.maps.Marker({
+        	position: latlng,
+        	map: map,
+        	title: "Greetings!"
+        });
+    }
+});
+$("#submit").click(function(e){
+		e.preventDefault();
+		console.log("Click");
+		var name = $("#name").val();
+        var email = $("#email").val();
+        var feed = $("#feedbackArea").val();
+        var error=false;
+        var errors = new Array();
+        console.log(error);
+        console.log(errors);
+        console.log(name+email);
+        $("#name-input-group").addClass("input-group").find(">div").removeClass("invisible").addClass("input-group-addon");
+        $("#email-input-group").addClass("input-group").find(">div").removeClass("invisible").addClass("input-group-addon");
+        $("#feedback-input-group").addClass("input-group").find(">div").removeClass("invisible").addClass("input-group-addon");
+        if(!name.trim()){
+        	errors.push("You forgot to enter your name");
+        	error=true;
+        }
+        if(!email.trim()){
+        	errors.push("You forgot to enter your email");
+        	error=true;
+        }
+        if(!feed.trim()){
+        	errors.push("You didn't specify enough information for us to help you.")
+        	error=true;
+        }
+        if(errors.length){
+        	var error_message;
+        	for(key in errors)
+        		error_message=errors[key]+"<br>";
+        	$("#response").stop().addClass("alert-danger").removeClass("alert-success").html("We encountered the following errors while processing : <br>"+error_message).fadeIn(5000).fadeOut(5000);
+        	return false;
+        }
+        if (!error) {
+            $.ajax({
+                url: "https://docs.google.com/forms/d/1YPEWczXwDgPGXi26I34qsDpap9nPEH47K3BFEmtu12A/formResponse",
+                data: {"entry.133432364" : name, "entry.710333225" : email, "entry.1680983812": feed},
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function (){
+                    	$("#name").val("");
+                    	$("#email").val("");
+                    	$("#feedbackArea").val("");
+                    	$("#name-input-group").removeClass("input-group").find(">div").addClass("invisible").removeClass("input-group-addon");
+                    	$("#name-input-group > div").removeClass("fa-check");
+        				$("#email-input-group").removeClass("input-group").find(">div").addClass("invisible").removeClass("input-group-addon");
+        				$("#email-input-group > div").removeClass("fa-check");
+        				$("#feedback-input-group").removeClass("input-group").find(">div").addClass("invisible").removeClass("input-group-addon");
+        				$("#feedback-input-group > div").removeClass("fa-check");
+                    	$("#response").stop().removeClass("alert-danger").addClass("alert-success").html("Your response has been submitted successfully. We will get back to you as soon as we can.").fadeIn(5000).fadeOut(5000);
+                    },
+                    200: function (){
+                     	$("#name").val("");
+                    	$("#email").val("");
+                    	$("#feedbackArea").val("");
+                    	$("#name-input-group").removeClass("input-group").find(">div").addClass("invisible").removeClass("input-group-addon");
+                    	$("#name-input-group > div").removeClass("fa-check");
+        				$("#email-input-group").removeClass("input-group").find(">div").addClass("invisible").removeClass("input-group-addon");
+        				$("#email-input-group > div").removeClass("fa-check");
+        				$("#feedback-input-group").removeClass("input-group").find(">div").addClass("invisible").removeClass("input-group-addon");
+        				$("#feedback-input-group > div").removeClass("fa-check");
+                    	$("#response").stop().removeClass("alert-danger").addClass("alert-success").html("Your response has been submitted successfully. We will get back to you as soon as we can.").fadeIn(5000).fadeOut(5000);
+                    }
+                }
+            });
+        }
+        else {
+           $("#response").removeClass("alert-success").addClass("alert-danger").html("There was an error submitting in your response. Kindly get back to the team at geekonix@gmail.com. We would be more than happy to help you.").fadeOut(5000);
+        }
+		});
+
+/*Event Description*/
+	$(".event").click(function(e){
+		
+		event_id = $(this).data('eventid');
+		
+		$.ajax({
+			url:'feed.php',
+			type: 'POST',
+			data: {event_id:event_id},
+			dataType:'json',
+			success:function(result){
+				if(result['status']==1){	
+				var url =new String("http://edg.co.in/content/"+result['file']);
+				window.location.href = url;
+				}
+				else{
+					return false;
+				}
+				/*$(".modal-event-desc").html("Event details will be uploaded soon.<br> Keep checking the website for the latest updates");
+				*/
+			},
+			error:function(xhr, desc, err) {
+            			console.log(xhr);
+            			console.log("Desc :: "+desc+"\nError :: "+err);
+            			$(".modal-event-desc").html("There was some problem in processing your request.<br>Please try after some time.<br><br>If the problem persists, please inform the technical team of EDGE.");
+           
+        			}
+		});
+	});
+
+
+	$("#applycampus").click(function(e){
+					e.preventDefault();
+					var name = $("#campus-name").val();
+					var email = $("#campus-email").val();
+					var college = $("#campus-college").val();
+					var contact = $("#campus-contact").val();
+					var stream = $("#campus-stream").val();
+					var year = $("#campus-year option:selected").text();
+					console.log(name+email+college+contact+stream+year);
+					var error=false;
+        
+        var filter=/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+        var mobileFilter = /^([0-9]{10})$/;
+        if(!name.trim() || !college.trim() || !stream.trim()){
+        	error=true;
+        }
+        if(!email.trim() || !filter.test(email) || !contact.trim() || !mobileFilter.test(contact)){
+        	error=true;
+        } 
+        if(error){
+        	$(".response").html("There is some error in the input you provided.<br>Please check and submit again.");
+        	return false;
+        }
+        if (!error) {
+        	$(".response").html('');
+            $.ajax({
+                url: "https://docs.google.com/forms/d/1Mk4M6OGwaS3u7wMRWzYFHfQOHdmjR8D6C6a8AG1hmBQ/formResponse",
+                data: {"entry.253464082" : name, "entry.1795898223" : email, "entry.601510512": college,"entry.1096372194": stream, "entry.1573924661":year,"entry.1223271723":contact},
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function (){
+                    	$("#campus-name").val('');
+                    	$("#campus-email").val('');
+                    	$("#campus-contact").val('');
+                    	$("#campus-college").val('');
+                    	$("#campus-stream").val('');
+                    	$("#campus-year").prop('selectedIndex',0);
+                    	$(".response").removeClass("alert-danger").addClass("alert-success").html("Thank you for applying. Our team will contact you shortly.").fadeOut(5000);
+                    },
+                    200: function (){
+                    	$("#campus-name").val('');
+                    	$("#campus-email").val('');
+                    	$("#campus-contact").val('');
+                    	$("#campus-college").val('');
+                    	$("#campus-stream").val('');
+                    	$("#campus-year").prop('selectedIndex',0);
+                    	$(".response").removeClass("alert-danger").addClass("alert-success").html("Thank you for applying. Our team will contact you shortly.").fadeOut(5000);
+                    }
+                }
+            });
+        }
+        else {
+           $(".response").removeClass("alert-success").addClass("alert-danger").html("There was an error submitting in your response. Kindly get back to the team at geekonix@gmail.com. We would be more than happy to help you.").fadeOut(5000);
+       }
+
+   });
+</script>
+</body>
+</html>

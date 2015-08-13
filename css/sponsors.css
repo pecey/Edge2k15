@@ -1,0 +1,281 @@
+.sprite {
+    background-image: url(../images/sponsors/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Edwise {
+    width: 120px;
+    height: 67px;
+    background-position: -5px -5px;
+}
+
+.sprite-Goutfitslogo {
+    width: 65px;
+    height: 100px;
+    background-position: -135px -5px;
+}
+
+.sprite-Killzone {
+    width: 120px;
+    height: 36px;
+    background-position: -210px -5px;
+}
+
+.sprite-MYWBUT {
+    width: 120px;
+    height: 41px;
+    background-position: -340px -5px;
+}
+
+.sprite-PowerFM {
+    width: 120px;
+    height: 50px;
+    background-position: -470px -5px;
+}
+
+.sprite-aoc {
+    width: 120px;
+    height: 44px;
+    background-position: -210px -65px;
+}
+
+.sprite-berger {
+    width: 120px;
+    height: 80px;
+    background-position: -340px -65px;
+}
+
+.sprite-campus_france {
+    width: 120px;
+    height: 37px;
+    background-position: -470px -65px;
+}
+
+.sprite-campusbull {
+    width: 120px;
+    height: 51px;
+    background-position: -5px -112px;
+}
+
+.sprite-cl {
+    width: 120px;
+    height: 49px;
+    background-position: -470px -112px;
+}
+
+.sprite-coal_india {
+    width: 99px;
+    height: 100px;
+    background-position: -135px -171px;
+}
+
+.sprite-coolermaster {
+    width: 120px;
+    height: 98px;
+    background-position: -244px -171px;
+}
+
+.sprite-eduwest {
+    width: 120px;
+    height: 59px;
+    background-position: -374px -171px;
+}
+
+.sprite-epitome {
+    width: 120px;
+    height: 23px;
+    background-position: -5px -240px;
+}
+
+.sprite-fadooengineers {
+    width: 120px;
+    height: 30px;
+    background-position: -374px -240px;
+}
+
+.sprite-geekalum {
+    width: 120px;
+    height: 36px;
+    background-position: -5px -280px;
+}
+
+.sprite-globsyn {
+    width: 120px;
+    height: 41px;
+    background-position: -244px -280px;
+}
+
+.sprite-haque {
+    width: 120px;
+    height: 34px;
+    background-position: -374px -280px;
+}
+
+.sprite-hero {
+    width: 103px;
+    height: 100px;
+    background-position: -504px -171px;
+}
+
+.sprite-jamboree {
+    width: 120px;
+    height: 32px;
+    background-position: -374px -324px;
+}
+
+.sprite-knowafes {
+    width: 120px;
+    height: 40px;
+    background-position: -5px -366px;
+}
+
+.sprite-knowafest {
+    width: 120px;
+    height: 35px;
+    background-position: -135px -366px;
+}
+
+.sprite-manisq {
+    width: 120px;
+    height: 80px;
+    background-position: -265px -366px;
+}
+
+.sprite-mywbut {
+    width: 120px;
+    height: 41px;
+    background-position: -395px -366px;
+}
+
+.sprite-nMind {
+    width: 120px;
+    height: 32px;
+    background-position: -5px -417px;
+}
+
+.sprite-ncc {
+    width: 120px;
+    height: 59px;
+    background-position: -135px -417px;
+}
+
+.sprite-nikon {
+    width: 100px;
+    height: 100px;
+    background-position: -395px -417px;
+}
+
+.sprite-ongc {
+    width: 100px;
+    height: 100px;
+    background-position: -505px -417px;
+}
+
+.sprite-ontherox {
+    width: 120px;
+    height: 64px;
+    background-position: -5px -527px;
+}
+
+.sprite-power {
+    width: 100px;
+    height: 100px;
+    background-position: -600px -5px;
+}
+
+.sprite-princeton_review {
+    width: 120px;
+    height: 60px;
+    background-position: -504px -281px;
+}
+
+.sprite-quippo {
+    width: 100px;
+    height: 100px;
+    background-position: -617px -115px;
+}
+
+.sprite-responsible {
+    width: 120px;
+    height: 79px;
+    background-position: -135px -527px;
+}
+
+.sprite-ricoh {
+    width: 120px;
+    height: 39px;
+    background-position: -525px -351px;
+}
+
+.sprite-rosevalley {
+    width: 120px;
+    height: 27px;
+    background-position: -265px -527px;
+}
+
+.sprite-rv-logo {
+    width: 120px;
+    height: 27px;
+    background-position: -395px -527px;
+}
+
+.sprite-sail {
+    width: 95px;
+    height: 100px;
+    background-position: -634px -225px;
+}
+
+.sprite-sbi {
+    width: 120px;
+    height: 29px;
+    background-position: -525px -527px;
+}
+
+.sprite-spartans {
+    width: 120px;
+    height: 66px;
+    background-position: -265px -566px;
+}
+
+.sprite-subtle {
+    width: 120px;
+    height: 84px;
+    background-position: -395px -566px;
+}
+
+.sprite-talkESPORT {
+    width: 120px;
+    height: 38px;
+    background-position: -525px -566px;
+}
+
+.sprite-tcs {
+    width: 120px;
+    height: 56px;
+    background-position: -5px -614px;
+}
+
+.sprite-ti {
+    width: 102px;
+    height: 100px;
+    background-position: -615px -400px;
+}
+
+.sprite-twenty19 {
+    width: 120px;
+    height: 38px;
+    background-position: -525px -614px;
+}
+
+.sprite-ubi {
+    width: 103px;
+    height: 100px;
+    background-position: -710px -5px;
+}
+
+.sprite-uco {
+    width: 75px;
+    height: 100px;
+    background-position: -727px -115px;
+}

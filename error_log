@@ -1,0 +1,155 @@
+[23-Feb-2015 09:51:00] PHP Warning:  require_once(/srv/http/edge15/libs/globals.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 09:51:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/srv/http/edge15/libs/globals.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 09:59:58] PHP Warning:  require_once(/srv/http/edge15/libs/globals.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 09:59:58] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/srv/http/edge15/libs/globals.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 10:00:54] PHP Warning:  require_once(/srv/http/edge15/libs/globals.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 10:00:54] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/srv/http/edge15/libs/globals.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 10:01:50] PHP Warning:  require_once(/srv/http/edge15/libs/globals.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 10:01:50] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/srv/http/edge15/libs/globals.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 10:02:53] PHP Warning:  require_once(../../libs/globals.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[23-Feb-2015 10:02:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../libs/globals.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/geekonix/public_html/edge/models/Database.php on line 2
+[09-Mar-2015 12:42:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:42:57] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:46:07] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:46:35] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:46:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:47:09] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:03] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:46] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:47] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 12:59:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:00:59] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:01:00] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:42] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:48] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:50] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:52] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:52] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:53] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:53] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:53] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:53] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:53] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:02:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:49] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:53] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:55] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:06:56] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:07:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:07:54] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:08:13] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 13:16:31] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home2/geekonix/public_html/edge/content/lib/database.php on line 116
+[09-Mar-2015 14:03:10] PHP Fatal error:  Call to undefined function  append() in /home2/geekonix/public_html/edge/details.php on line 14
+[09-Mar-2015 14:03:18] PHP Fatal error:  Call to undefined function  append() in /home2/geekonix/public_html/edge/details.php on line 14
+[09-Mar-2015 14:03:49] PHP Fatal error:  Call to undefined function  append() in /home2/geekonix/public_html/edge/details.php on line 14
+[09-Mar-2015 14:12:57] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/geekonix/public_html/edge/content/lib/database.php on line 117
+[09-Mar-2015 14:13:50] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/geekonix/public_html/edge/content/lib/database.php on line 117
+[09-Mar-2015 14:44:59] PHP Warning:  array_push() [<a href='function.array-push'>function.array-push</a>]: First argument should be an array in /home2/geekonix/public_html/edge/details.php on line 25
+[19-Mar-2015 10:54:41] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/geekonix/public_html/edge/content/lib/database.php on line 18
+[27-Mar-2015 16:17:59] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home2/geekonix/public_html/edge/content/lib/database.php on line 18

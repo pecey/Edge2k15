@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	border:none!important;
+}
+
+ul{
+	list-style-type: none!important;
+}
+
+a{
+	text-decoration: none!important;
+	color: black;
+}
+
+li{
+	border:none!important;
+}
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('../libs/fonts/NexaLight.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Calendas Plus';
+    src: url('../libs/fonts/Calendas_Plus.otf') format("opentype");
+}
+#splash-screen{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background: url('../images/mobile/splash-screen.png') no-repeat center;
+	background-size: cover;
+	display: none;
+	z-index: 999;
+}
+
+#splash{
+	height: 50%;
+	width: 80%;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left:0;
+	margin: auto;
+	overflow: hidden;	
+}
+
+#splash > img{
+	height: 50%;
+	width: 100%;
+}
+
+.container{
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nexa-Light',sans-serif;
+}
+
+
+#footer{
+	background: rgb(216, 29, 36);
+	border:none;
+	padding: 5px;
+}
+
+#footer > i{
+	padding: 0px 5px;
+}
+
+#navigation{
+	padding: 5px;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+#nav-panel li{
+	background: white;
+	border:none!important;
+}
+.ui-listview>li>a.ui-btn{
+	border-width: 0px;
+}
+
+
+.custom-header{
+	text-align: left;
+	padding: 0.5em 1em 0.5em;
+	font-size: 20px;
+	background: #F9ECDD;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+fieldset a{
+	background: #E2E1E0;
+}
+
+.event{
+	padding: 5px;
+	background: #D6F5CF;
+	font-size: 15px;
+	margin: 2px;
+}
+
+.contact-image{
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50%;
+	padding: 2px;
+}
+
+.contact-details{
+	display: inline-block;
+}
+
+.contact{
+	padding: 5px 5px;
+	background: #E8E6E0;
+	margin-bottom: 2px;
+}
+
+.team-fb > span{
+	padding: 0px 5px;
+}
+
+.contact-role{
+	display: block;
+	padding-left: 10px;
+	font-family: 'Dosis',serif;
+	text-transform: lowercase;
+	color:#671A1A;
+}
+
+
+.page{
+	padding: 10px;
+	position: fixed;
+}
+
+/*Map Canvas*/
+#map{
+	width: 100%;
+	height: 100%;
+}
+#map-canvas { width: 80%; height: 70%; margin: 20px auto;}
+
+
+.fa-check{
+  color:rgb(38, 207, 38);
+}
+
+.fa-close{
+  color:rgb(240, 106, 106);
+}
+
+.custom-footer{
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	text-align: center;
+	width: 100%;
+	background: rgb(216, 29, 36);
+	margin: 0px;
+	padding: 0px;
+	margin-left: -10px;
+	color: #fff;
+}
+
+
+@media screen and (min-width: 512px){
+	#branding {
+	background: rgb(216, 29, 36);
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	top:0;
+	left: 0;
+	max-height: 100px;
+	min-height: 75px;
+	z-index: 99;
+	box-shadow: 1px 1px 5px #868686;
+	border-color: rgb(253, 178, 115);
+	width: 100%;
+	}
+	#branding > img{
+		width: auto;
+		height: 100px;
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width: 512px){
+	#branding{
+	background: rgb(216, 29, 36);
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	top:0;
+	left: 0;
+	max-height: 100px;
+	min-height: 75px;
+	z-index: 99;
+	box-shadow: 1px 1px 5px #868686;
+	border-color: rgb(253, 178, 115);
+	width: 100%;
+	}
+}
